@@ -1,0 +1,20 @@
+# Ignoriere erstmal alles
+*
+
+# Aber erlaube alle Ordner (damit Git überhaupt reinschauen kann)
+!*/
+
+# Erlaube nur diese Dateitypen, egal in welchem Ordner
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!*.txt
+!.gitignore
+
+# VS Code Konfigurationsdateien erlauben
+!.vscode/
+!.vscode/*.json
+
+# Debug-Symbole trotzdem blocken, falls sie durchrutschen
+*.dSYM/
