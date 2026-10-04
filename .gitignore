@@ -18,3 +18,8 @@
 
 # Debug-Symbole trotzdem blocken, falls sie durchrutschen
 *.dSYM/
+
+# Build-Ordner und IDE-Konfiguration (CMake / CLion)
+build/
+cmake-build-*/
+.idea/
